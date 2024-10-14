@@ -223,40 +223,7 @@ html, body {
   padding-left: 3px;
 }
 
-/*
- * Social Network
- */
-.social-icons.small {
-  margin: 50px auto 0;
-}
 
-.social-icons.small .rectangle {
-  margin: 0 4px;
-  width: 30px;
-  height: 30px;
-  color: #fff;
-}
-
-.social-icons.small .rectangle i {
-  font-size: 14px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-
-.social-icons.small .rectangle:hover {
-  background-color: #fff;
-}
-
-.social-icons.small .rectangle:hover i {
-  color: #196fc0;
-}
-
-.social-icons .rectangle {
-  box-shadow: none;
-  display: inline-block;
-}
 
 /* Image responsive */
 .img-res {
@@ -279,7 +246,7 @@ html, body {
   position: relative;
   padding: 0 30px 0 15px;
   height: 60px;
-  background-color: #004b91;
+  background-color: rgb(11,96,181);
   z-index: 2;
 }
 
@@ -1625,7 +1592,7 @@ html, body {
     max-width: 600px;
     margin: 15px auto;
     padding: 5px;
-    background: rgba(59, 31, 241, 0.8); /* Semi-transparent background */
+    background: rgb(11,96,181); /* Semi-transparent background */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
