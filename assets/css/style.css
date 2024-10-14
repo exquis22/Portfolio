@@ -450,8 +450,8 @@ html, body {
 .hero::before {
   content: "";
   background: url(../img/topr.png) center no-repeat;
-  background-size: 50%; /* Adjust the size of the background image as needed */
-  background-position: center 60%; /* Position the image slightly lower */
+  background-size: contain; /* Adjust the size of the background image as needed */
+  background-position: center; /* Position the image slightly lower */
   position: absolute;
   top: 0;
   left: 0;
