@@ -120,7 +120,7 @@
                         <li class="page-scroll"><a href="#works">Works</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
 			    
-                        <li style="margin:10px"><button onclick="openResume()">Resume</button></li> <!-- Button for Resume -->
+                        <li style="margin-left:10px"><button onclick="openResume()">Resume</button></li> <!-- Button for Resume -->
                     </ul><!-- /.navbar-nav -->
                     
                 </div><!-- /.navbar-collapse -->
@@ -650,6 +650,14 @@
 
     </main><!-- /#main -->
     <!-- End Main content -->
+	<!-- Modal for displaying resume -->
+<div id="resumeModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeResume()">&times;</span>
+        <!-- Include your resume content here -->
+        <embed src="assets/JOHN NJENGA RESUME.pdf" type="application/pdf" width="60%" height="650px" />
+    </div>
+</div>
 
     <!-- Footer --> 
     <footer id="colophon" class="site-footer">
@@ -671,14 +679,7 @@
 
     </footer><!-- /#footer -->
     <!-- End Footer --> 
-	<!-- Modal for displaying resume -->
-<div id="resumeModal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeResume()">&times;</span>
-        <!-- Include your resume content here -->
-        <embed src="assets/JOHN NJENGA RESUME.pdf" type="application/pdf" width="60%" height="650px" />
-    </div>
-</div>
+	
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
         (function() {
