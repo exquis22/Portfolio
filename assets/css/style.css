@@ -407,7 +407,7 @@ html, body {
   content: "";
   background: url(../img/topr.png) center no-repeat;
   background-size: contain; /* Adjust the size of the background image as needed */
-  background-position: center; /* Position the image slightly lower */
+  background-position: center 50%; /* Position the image slightly lower */
   position: absolute;
   top: 0;
   left: 0;
