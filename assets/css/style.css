@@ -388,7 +388,21 @@ html, body {
     margin-left: 0;
   }
 }
-
+/* PDF display styles */
+        .pdf-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            width: 100%;
+        }
+        .pdf-viewer {
+            width: 80%;
+            height: 100%;
+            border: none;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
 /* HERO
 ================================================== */
 .hero {
