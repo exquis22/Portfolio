@@ -416,9 +416,8 @@ html, body {
   filter: blur(0.25s); /* Increase blur for a softer effect */
   z-index: -1; /* Place it behind the main content */
   margin: auto; /* Center the background image */
-  opacity: 0.5; /* Increase opacity for better visibility */
+  opacity: 0.2; /* Increase opacity for better visibility */
   background-color: rgba(171, 160, 160, 0.5); /* Add a semi-transparent black overlay */
-  mix-blend-mode: hard-light; /* Blend using hard-light to achieve a strong effect */
 }
 
 /* Adding a light overlay effect */
